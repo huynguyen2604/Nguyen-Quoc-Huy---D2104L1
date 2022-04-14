@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1110px;
+    margin: 0  auto;
+}
+.container-bg{
+    width: 1110px;
+    margin: 0  auto;
+    background-color: rgb(230, 230, 20);
+}
+.container-fluid{
+    width: 100%;
+}
+.header{
+    padding: 40px 20px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100% 
+}
+.nav1{
+    width: 44%;
+    display: inline-block;
+}
+.logo{
+    width: 20%;
+    display: inline-block;
+}
+.nav{
+    width: calc( 36% - 10px );
+    display: inline-block;
+}
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 24px;
+}
+.nav li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(32, 29, 29);
+    font-weight: bolder;
+}
+.nav1 ul{
+    list-style: none;
+    text-align: left;
+}
+.nav1 li{
+    display: inline-block;
+    padding: 20px 20px 0 0;
+    text-align: left; 
+}
+.nav1 li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(32, 29, 29);
+    font-weight: bolder;
+}
+.banner{
+    height: 30vh;
+    background-image: url('../Css/Untitled-3.png');
+    background-size: cover;
+} 
+.section-1 img{
+    width: 100%
+}       
+.text{
+    margin: 0;
+    background-color: red;
+     color: black;
+     font-size: 40px;
+     text-align: center;
+}
+.section-2{
+    padding: 20px 0;
+}
+.feature{
+    vertical-align: middle;
+    overflow: hidden;
+}
+.content h1{
+    margin: 8px 50px 36px;
+    font-size: 35px;
+    padding: 150px 0 0 0;
+}
+.content p{
+    margin: 8px 50px 36px;
+    font-size: 25px;
+}
+.link{
+    padding: 6px 12px;
+    color:white;
+    text-decoration: none;
+    background-color: rgb(252, 177, 190);
+}
+.feature img{
+    height: 200%;
+    width: 100%;
+}
+.section-3{
+    padding: 20px 20px 20px 40px;
+    vertical-align: middle;
+}
+.img1 img{
+    width: 350px;
+    height: 350px;
+    padding: 0 40px 0 50px;
+}
+.img1 h2{
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0 0 0 50px;
+}
+.img2 img{
+    width: 350px;
+    height: 350px;
+    padding: 0 40px 0 0;
+}
+.img2 h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+.img3 img{
+    width: 350px;
+    height: 350px;
+    padding: 0 40px 0 0;
+}
+.img3 h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+.Advertise{
+    padding: 20px 0;
+}
+.logo-brand img{
+    width: 1110px;
+    height: 400px;
+}
+.section-4{
+    padding: 20px 0;
+}
+.text1{
+     margin: 0 0 20px 0;
+     color: black;
+     font-size: 30px;
+     font-weight: 200;
+     text-align: center;
+}
+.card1{
+   width: 30%;
+   background: rgb(187, 179, 179);
+   box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+   border-radius: 20px;
+   overflow: hidden;
+   display: inline-block;
+   margin: 0 1%;
+}
+.feature-img1{
+    height: 450px;
+    overflow: hidden;
+}
+.feature-img1 img{
+    height: 100%;
+    width: 100%;
+}
+.description-card1{
+    padding: 48px 32px;
+}
+.description-card1 p{
+    margin: 12px 0 24px;
+}
+.meta1 span{
+    font-size: 12px;
+}
+.link1{
+    font-size: 12px;
+    color:rgb(243, 8, 47);
+    float: right;
+}
+.card2{
+    width: 30%;
+    background: rgb(187, 179, 179);
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 1%; 
+}
+ .feature-img2{
+     height: 450px;
+     overflow: hidden;
+}
+ .feature-img2 img{
+     height: 100%;
+     width: 100%;
+}
+ .description-card2{
+     padding: 48px 32px;
+}
+ .description-card2 p{
+     margin: 12px 0 24px;
+}
+ .meta2 span{
+     font-size: 12px;
+}
+ .link2{
+     font-size: 12px;
+     color:rgb(243, 8, 47);
+     float: right;
+}
+.card3{
+    width: 30%;
+    background:rgb(187, 179, 179);
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 1%; 
+}
+ .feature-img3{
+     height: 450px;
+     overflow: hidden;
+}
+ .feature-img3 img{
+     height: 100%;
+     width: 100%;
+}
+ .description-card3{
+     padding: 48px 32px;
+}
+ .description-card3 p{
+     margin: 12px 0 24px;
+}
+.footer{
+    height: 100px;
+    background: rgb(194, 155, 155);
+}
+.about-footer{
+    text-align: center;
+    background-color: rgb(194, 187, 187);
+    padding: 10px 0 10px 0;
+}
+.about-footer p{
+    margin: 8px 0 10px;
+}
+.link3{
+    color: rgb(243, 8, 47);
+    text-decoration: none;
+    font-size: 20px;
+}
+.list{
+    background-color: rgb(235, 235, 34);
+    padding: 60px 40px;
+    vertical-align: top;
+}
+.list-menu{
+    width: 20%;
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.list-menu ul{
+    list-style: none;
+}
+.list-menu li{
+    margin-bottom: 12px;
+}
+.list-menu h3{
+     color: black;
+}
+.list-menu li a{
+    color: black;
+    text-decoration: none;
+}
+.list-menu1{
+    width: 20%;
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.list-menu1 ul{
+    list-style: none;
+}
+.list-menu1 li{
+    margin-bottom: 12px;
+}
+.list-menu1 h3{
+    color: black;
+}
+.list-menu1 li a{
+    color: black;
+    text-decoration: none;
+}
+.list-menu2{
+    width: 20%;
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.list-menu2 ul{
+    list-style: none;
+}
+.list-menu2 li{
+    margin-bottom: 12px;
+}
+.list-menu2 h3{
+    color: black;
+}
+.list-menu2 li a{
+    color: black;
+    text-decoration: none;
+}
+.infor{
+    width: calc( 40% - 40px );
+    display: inline-block;
+    padding: 20px 40px;
+    vertical-align: top;
+}
+.infor p{
+    padding: 20px 0;
+    color: black;
+}
+   
+.button {
+    transition-duration: 0.4s;
+}
+  
+.button:hover {
+    background-color: yellow;
+    color: black;
+}
+.button1{
+    transition-duration: 0.3s;
+}
+  
+.button1:hover{
+    background-color: red;
+    color: yellow;
+}
+.button2{
+    transition-duration: 0.3s;
+}
+  
+.button2:hover{
+    background-color: blue;
+    color: yellow;
+}
+.button3{
+    transition-duration: 0.3s;
+}
+  
+.button3:hover{
+    background-color: green;
+    color: red;
+}
+.button4 {vertical-align: middle;}
+  
+.button4 .contentt {
+    position: absolute;
+    bottom: 30px;
+    background: rgb(28, 28, 25); /* Fallback color */
+    background: rgb(28, 28, 25, 0.4); /* Black background with 0.5 opacity */
+    width: 100%;
+    color: rgb(244, 232, 5);
+    padding: 80px;
+}
+.contentt{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.coppyright{
+    padding: 12px , 0;
+    text-align: center;
+    color: rgb(100, 97, 97);
+    background-color: rgb(194, 187, 187);
+}
